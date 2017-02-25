@@ -9,6 +9,8 @@ import org.apache.commons.lang.StringUtils;
 
 
 public class RegexUtil {
+	//^[\S\s]{44}
+	
 	public static boolean regMatch(String src, String reg, boolean ignoreCase) {
 		Pattern pattern = null;
 		if (ignoreCase) {
