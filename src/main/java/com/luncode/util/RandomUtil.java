@@ -8,8 +8,8 @@ import java.util.TreeSet;
 import org.apache.commons.lang.math.RandomUtils;
 
 public class RandomUtil {
-	public static final String upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";// O,I去掉
-	public static final String lower = "abcdefghijklmnopqrstuvwxyz";// o,l去掉
+	public static final String upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	public static final String lower = "abcdefghijklmnopqrstuvwxyz";
 	public static final String digital = "0123456789"; // 0,1
 	public static String getRandomString(String charArray, int length) {
 		StringBuilder sb = new StringBuilder();
