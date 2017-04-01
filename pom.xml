@@ -324,12 +324,12 @@
 			<version>1.7.1</version>
 			<scope>${dependency.common}</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>axiom</groupId>
 			<artifactId>axiom</artifactId>
 			<version>1.0</version>
 			<scope>${dependency.common}</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
@@ -402,12 +402,12 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>pinyin4j</groupId>
 			<artifactId>pinyin4j</artifactId>
 			<version>2.5.0</version>
 			<scope>${dependency.common}</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.apache.poi</groupId>
 			<artifactId>poi</artifactId>
@@ -442,24 +442,24 @@
 				</exclusion>
 			</exclusions>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>xml</groupId>
 			<artifactId>resolver</artifactId>
 			<version>1.2</version>
 			<scope>${dependency.common}</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>org.apache.ws.commons.schema</groupId>
 			<artifactId>XmlSchema</artifactId>
 			<version>1.4.7</version>
 			<scope>${dependency.common}</scope>
 		</dependency>
-		<dependency>
+		<!-- <dependency>
 			<groupId>xmlsec</groupId>
 			<artifactId>xmlsec</artifactId>
 			<version>1.4.6</version>
 			<scope>${dependency.common}</scope>
-		</dependency>
+		</dependency> -->
 		<dependency>
 			<groupId>com.thoughtworks.xstream</groupId>
 			<artifactId>xstream</artifactId>
